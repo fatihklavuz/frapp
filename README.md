@@ -2,4 +2,4 @@
 Simple Password Generator
 
 
-İnformation: Sixth module will be add
+Information: Sixth module will be add
