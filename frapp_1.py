@@ -1,14 +1,26 @@
 #!/bin/bash/env python3
 # -*- coding: utf-8 -*-
 
-print("XXXXXXXXXXXXXXXXXXXXXXXXXXXX\n")
-print("Simple Password Generator\n")
-print("Created Fatih_Kılavuz\n")
-print("XXXXXXXXXXXXXXXXXXXXXXXXXXXX\n")
+def my_logo():
+    print("\033[1;33mXxXxXxXxXxXxXxXxXxXxXxXxXxXxXxXxXxX\n")
+    print("\033[1;34mcreated fatih kılavuz  [https://github.com/fatihklavuz]\n")
+    print("\033[1;33mooooooooooooooooooooooooooooooooooo")
+    print("\033[1;33mo                                 o")
+    print("\033[1;33mo           frapp                 o   ")
+    print("\033[1;33mo                                 o")
+    print("\033[1;33mo     Password Generator          o   ")
+    print("\033[1;33mo                                 o")
+    print("\033[1;33mooooooooooooooooooooooooooooooooooo")
+    print("\n")
+
+
+my_logo()
 
 
 import random
 import string
+
+
 
 print(" What do you have your password: ")
 print("*********************************")
@@ -49,14 +61,14 @@ elif cho == 5:
             passw=string.digits+string.ascii_letters+spc_crc
             return ''.join(random.choice(passw) for i in range(crclng))          
         
-        
-        
-print(rndstr(chr_lng))
-        
-    
-      
+print("\n")        
+print("\033[1;36m","****************\n")       
+print("\033[1;36m"," ",rndstr(chr_lng))
+print("\n") 
+print("\033[1;36m","****************")
 
 
+ 
 
-
+ 
 
