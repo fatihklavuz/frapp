@@ -1,22 +1,26 @@
 #!/bin/bash/env python3
 # -*- coding: utf-8 -*-
 
-def my_logo():
-    print("\033[1;33mXxXxXxXxXxXxXxXxXxXxXxXxXxXxXxXxXxX\n")
-    print("\033[1;34mcreated fatih kılavuz\n")
-    print("\033[1;34mhttps://github.com/fatihklavuz\n")
-    print("\033[1;33mooooooooooooooooooooooooooooooooooo")
-    print("\033[1;33mo                                 o")
-    print("\033[1;33mo           frapp                 o   ")
-    print("\033[1;33mo                                 o")
-    print("\033[1;33mo     Password Generator          o   ")
-    print("\033[1;33mo                                 o")
-    print("\033[1;33mooooooooooooooooooooooooooooooooooo")
-    print("\n")
 
 
-my_logo()
+def mylogo():
+    
+    print("""
+     \033[1;33mXxXxXxXxXxXxXxXxXxXxXxXxXxXxXxXxXxX\n  
+           \033[1;34mcreated fatih kılavuz\n
+      \033[1;34mhttps://github.com/fatihklavuz\n
+     \033[1;33mooooooooooooooooooooooooooooooooooo
+     \033[1;33mo                                 o
+     \033[1;33mo           frapp                 o
+     \033[1;33mo                                 o
+     \033[1;33mo    Simple Password Generator    o
+     \033[1;33mo                                 o
+     \033[1;33mooooooooooooooooooooooooooooooooooo
+     \n
+          
+          """)
 
+mylogo()
 
 import random
 import string
