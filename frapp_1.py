@@ -1,4 +1,4 @@
-#!/bin/bash/env python3
+﻿#!/bin/bash/env python3
 # -*- coding: utf-8 -*-
 
 
@@ -34,7 +34,6 @@ print("2==> Letters Only")
 print("3==> Numbers and Letters")
 print("4==> Numbers Letters and Specials Characters")
 print("5==> Give Me Five :)")
-print("6==> I want to set the criteria ")
 
 
 cho=int(input("Make your Choice : ") )
@@ -171,18 +170,4 @@ if wrt == 'n':
              
 #Choice 5 end#
          
-#Choice 6 Start#
-
-'to be written'
-
-
-
-#Choice 6 end#      
-             
-
-
-
- 
-
- 
-
+  
